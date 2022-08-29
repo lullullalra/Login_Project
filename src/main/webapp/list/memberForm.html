@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>회원 가입</title>
+		<script type="text/javascript" src="../js/login.js"></script>
+		<link rel="stylesheet" href="../css/memberForm.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=DynaPuff&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<form name="frmMember">
+			<div class="main">
+				<h2 style="font-family: 'DynaPuff', cursive">join Member</h2>
+				<table>
+					<tr>
+						<td>id:</td>
+						<td><input type="text" name="id"></td>
+					</tr>
+					<tr>
+						<td>pwd:</td>
+						<td><input type="password" name="pwd"></td>
+					</tr>
+					<tr>
+						<td>name:</td>
+						<td><input type="text" name="name"></td>
+					</tr>
+					<tr>
+						<td>email:</td>
+						<td><input type="text" name="email"></td>
+					</tr>
+				</table>
+				<input type="submit" value="가입하기" class="button" style="margin-top:10px" onclick="fn_sendMember()" >
+				<input type="reset" value="다시 입력" class="button" style="margin-top:10px">
+				<input type="hidden" name="command" value="addMember">
+			</div>
+		</form>
+	</body>
+</html>

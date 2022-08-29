@@ -1,0 +1,37 @@
+@charset "UTF-8";
+.button{
+	border: 1px solid lightgray;
+    background-color: skyblue;
+    color: white;
+    border-radius: 3px;
+}
+
+.button:hover{
+	background-color: cornflowerblue;
+	color: white;
+	border: 1px solid lightgray;	
+}
+
+.main {
+	margin: auto;
+    width: 250px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+	float: center;
+}
+
+.logo {
+    margin-top: 0px;
+    margin-bottom: 40px;
+    font-family: 'DynaPuff', cursive;
+}
+
+td{
+	text-align:right;
+	font-family: 'DynaPuff', cursive;
+}

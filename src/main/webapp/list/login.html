@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>login page</title>
+	<script type="text/javascript" src="../js/login.js"></script>
+	<link rel="stylesheet" href="../css/home.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=DynaPuff&display=swap" rel="stylesheet">
+</head>
+<body>
+	<form name="frmMember">
+		<div class="main">
+			<h1 class=logo>Login</h1>
+			<table>
+				<tr>
+					<td>ID:</td>
+					<td><input type="text" name="id"></td>
+				</tr>
+				<tr>
+					<td>PWD:</td>
+					<td><input type="password" name="pwd"></td>
+				</tr>
+			</table>
+			<input type="button" value="로그인" class="button" style="margin-top:5px" onclick="loginMember()">
+			<input type="button" value="회원 가입" class="button" style="margin-top:5px" onclick="location.href='http://localhost:8080/LoginProject/list/memberForm.html'">
+		</div>
+	</form>
+</body>
+</html>

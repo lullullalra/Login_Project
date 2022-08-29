@@ -1,0 +1,42 @@
+@charset "UTF-8";
+.main {
+	margin: auto;
+    width: 1000px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5px;
+}
+
+h1{
+	font-family: 'DynaPuff', cursive	
+}
+
+.button{
+	border: 1px solid lightgray;
+    background-color: skyblue;
+    color: white;
+    border-radius: 3px;
+    width: 10%;
+    height: 10%;
+}
+
+.button:hover{
+	background-color: cornflowerblue;
+	color: white;
+	border: 1px solid lightgray;	
+}
+
+.list{
+	color: black;
+	margin-bottom:80px;
+	border: 1px solid lightgrey;
+	border-radius: 5px;
+}
+
+tr, td{
+	border: 1px solid lightgrey;
+}
+
